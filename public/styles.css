@@ -1,0 +1,88 @@
+/* Tabela */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: rgb(36,150,126);
+  background: radial-gradient(circle, rgba(36,150,126,1) 11%, rgba(0,212,255,1) 100%);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h1 {
+  color:#ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form-container {
+  width: 50%;
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ccc;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label, input {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #05668D;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #05668D;
+}
+
+.message-container {
+  width: 50%;
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  color: #333;
+}
+
+.title-message {
+  color: #547AA5;
+}
